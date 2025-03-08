@@ -1,15 +1,18 @@
 .címközép{
     text-align: center;
     padding-top: 4px;
+    font-size: 30px;
 }
 .bekezdés{
     text-align: center;
     padding-top: -5px;
+    font-size: 18px;
 }
 .kisbehuzas{
     padding-left: 15px;
     padding-top: 25px;
     color: darkgoldenrod;
+    font-size: 35px;
 }
 
 
@@ -19,24 +22,12 @@
     margin-top: 20px;
 }
 
-
-.image-text-container img {
-    width: 150; 
-    height:300px; 
-    flex-shrink: 0; 
-    justify-content:flex-end;
-    align-items: center;
-    object-fit:scale-down;
-    padding-top: 75px;
-}
-
-
 .image-text-container .text {
     flex: 1; 
     text-align: left; 
     justify-content: flex-start; 
     padding-left: 5px;
-    align-items:flex-start
+    align-items:flex-start;
     
 }
 
@@ -44,6 +35,8 @@
 body {
     margin: 0; 
     padding: 0;
+    background-color:rgba(218, 165, 32, 0.668);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .container{
     background-color: darkgoldenrod;
@@ -51,7 +44,7 @@ body {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    height: 140px;
+    height: 70px;
 }
 .form-container{
     display: inline-block;
@@ -88,4 +81,56 @@ table{
 th,td{
     border: 1.8px solid rgb(137, 102, 13);
     text-align: center;
+}
+
+.text_size1{
+    font-size: 32px;
+}
+
+.textsize{
+    font-size: 20px;
+}
+
+#kep1{
+    width: 600px;
+    height:408px;
+    padding-top: 140px;
+    padding-left: 15px;
+}
+
+.kep2{
+width: 410px;
+height: 380px;
+padding-bottom: 16px;
+padding-left: 15px;
+padding-right: 190px;
+}
+
+.kep3{
+width:600px;
+height: 620px;
+padding-top: 180px;
+padding-left: 15px;
+}
+
+.kep4{
+width:490px;
+height: 580px;
+padding-right: 110px;
+padding-top: 7px;
+padding-left: 15px;
+}
+
+.kep5{
+width: 400px;
+height: 588px;
+padding-top: 10px;
+padding-right: 200px;
+padding-left: 15px;
+}
+
+.kep6{
+width: 600px;
+height: 500px;
+padding left: 15px;
 }
