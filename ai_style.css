@@ -1,0 +1,55 @@
+.container{
+    background-color: darkgoldenrod;
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 70px;
+}
+.form-container{
+    display: inline-block;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.button-container input[type="button"] {
+    padding: 8px 15px;
+    background-color: goldenrod;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.button-container input[type="button"]:hover {
+    background-color: darkorange;
+}
+
+body {
+    margin: 0; 
+    padding: 0;
+    background-color:rgba(218, 165, 32, 0.668);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.címközép{
+    text-align: center;
+    padding-top: 4px;
+    font-size: 30px;
+}
+.bekezdés{
+    text-align: center;
+    padding-top: -5px;
+    font-size: 18px;
+}
+
+.kisbehuzas{
+    padding-top: 25px;
+    color: darkgoldenrod;
+    font-size: 35px;
+}
+
