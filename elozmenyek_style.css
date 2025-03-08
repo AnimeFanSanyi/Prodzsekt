@@ -67,4 +67,12 @@ body {
 .kepek{
 display: flex;
 justify-content: center;
+gap: 20px;
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: darkgoldenrod;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5.2px;
 }
