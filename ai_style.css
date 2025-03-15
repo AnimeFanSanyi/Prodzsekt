@@ -21,7 +21,6 @@
     color: black;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
     font-size: 14px;
 }
 
@@ -48,8 +47,51 @@ body {
 }
 
 .kisbehuzas{
-    padding-top: 25px;
     color: darkgoldenrod;
     font-size: 35px;
+    text-align: left;
 }
 
+#focim{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: darkgoldenrod;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 5.2px;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 120px;
+    gap: 150px;
+    display: flex;
+    
+}
+    section .szoveg{
+        font-size: 18px;
+        color: black;
+        text-align: left;
+    }
+
+    section .kep{
+        justify-content: right;
+    }
+    section .bal{
+        justify-content: left;
+    }
+
+.alcim{
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
